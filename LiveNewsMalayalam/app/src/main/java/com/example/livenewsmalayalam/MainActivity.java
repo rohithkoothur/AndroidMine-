@@ -1,6 +1,7 @@
 package com.example.livenewsmalayalam;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toolbar;
 
@@ -10,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.example.livenewsmalayalam.adapters.RecyclerViewDataAdapter;
+import com.example.livenewsmalayalam.adapters.SectionListDataAdapter;
 import com.example.livenewsmalayalam.models.SectionDataModel;
 import com.example.livenewsmalayalam.models.SingleItemModel;
 
@@ -69,11 +71,23 @@ public class MainActivity extends AppCompatActivity {
             for (int j = 0; j <= 5; j++) {
 
                 if(i==1 && j==1){
-                    singleItem.add(new SingleItemModel("Mathruboomi" , "URL " + j,R.drawable.ic_ac1));
+                    singleItem.add(new SingleItemModel("Mathruboomi" , "MainActivity2",R.drawable.ic_mathruboomi));
+                }
+                if(i==1 && j==0){
+                    singleItem.add(new SingleItemModel("24News" , "MainActivity2",R.drawable.ic_24));
+                }
+                if(i==1 && j==2){
+                    singleItem.add(new SingleItemModel("Janam" , "MainActivity2",R.drawable.ic_ja));
+                }
+                if(i==1 && j==3){
+                    singleItem.add(new SingleItemModel("Asianet News" , "MainActivity2",R.drawable.ic_asianet));
+                }
+                if(i==1 && j==4){
+                    singleItem.add(new SingleItemModel("Kairali News" , "MainActivity2",R.drawable.ic_kairali));
                 }
 
 
-                singleItem.add(new SingleItemModel("Item " + j, "URL " + j,R.drawable.ic_ac));
+
             }
 
             dm.setAllItemsInSection(singleItem);

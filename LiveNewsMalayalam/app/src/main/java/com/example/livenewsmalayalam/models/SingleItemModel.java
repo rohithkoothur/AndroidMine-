@@ -4,7 +4,7 @@ public class SingleItemModel {
 
 
     private String name;
-    private String url;
+    private String activityname;
     private String description;
     public int mImageResource;
 
@@ -13,19 +13,19 @@ public class SingleItemModel {
     public SingleItemModel() {
     }
 
-    public SingleItemModel(String name, String url,int mImageResource) {
+    public SingleItemModel(String name, String activityname,int mImageResource) {
         this.name = name;
-        this.url = url;
+        this.activityname = activityname;
         this.mImageResource = mImageResource;
     }
 
 
-    public String getUrl() {
-        return url;
+    public String getActivityname() {
+        return activityname;
     }
 
-    public void setUrl(String url) {
-        this.url = url;
+    public void setActivityname(String activityname) {
+        this.activityname = activityname;
     }
 
     public String getName() {

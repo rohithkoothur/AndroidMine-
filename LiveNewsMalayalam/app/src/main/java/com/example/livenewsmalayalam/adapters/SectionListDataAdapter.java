@@ -1,6 +1,7 @@
 package com.example.livenewsmalayalam.adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +12,8 @@ import android.widget.Toast;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import com.example.livenewsmalayalam.MainActivity;
+import com.example.livenewsmalayalam.MainActivity2;
 import com.example.livenewsmalayalam.R;
 import com.example.livenewsmalayalam.models.SingleItemModel;
 
@@ -41,6 +44,9 @@ public class SectionListDataAdapter extends RecyclerView.Adapter<SectionListData
 
         holder.tvTitle.setText(singleItem.getName());
         holder.itemImage.setImageResource(singleItem.getImageResource());
+        holder.activitystring.setText(singleItem.getActivityname());
+
+
 
 
        /* Glide.with(mContext)
@@ -62,17 +68,28 @@ public class SectionListDataAdapter extends RecyclerView.Adapter<SectionListData
 
         protected ImageView itemImage;
 
+        protected TextView activitystring;
+
 
         public SingleItemRowHolder(View view) {
             super(view);
 
             this.tvTitle = (TextView) view.findViewById(R.id.tvTitle);
             this.itemImage = (ImageView) view.findViewById(R.id.itemImage);
+            this.activitystring = (TextView) view.findViewById(R.id.activityid);
 
 
             view.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+                   if(tvTitle.getText()=="Mathruboomi"){
+
+                    Intent intent = new Intent(mContext, MainActivity2.class);
+                    mContext.startActivity(intent);
+
+                   }
+
+
 
 
                     Toast.makeText(v.getContext(), tvTitle.getText(), Toast.LENGTH_SHORT).show();
