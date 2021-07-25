@@ -85,6 +85,21 @@ public class MainActivity extends AppCompatActivity {
                 if(i==1 && j==4){
                     singleItem.add(new SingleItemModel("Kairali News" , "MainActivity2",R.drawable.ic_kairali));
                 }
+                if(i==2 && j==1){
+                    singleItem.add(new SingleItemModel("Republic" , "MainActivity2",R.drawable.ic_republic));
+                }
+                if(i==2 && j==2){
+                    singleItem.add(new SingleItemModel("Aaj Tak" , "MainActivity2",R.drawable.ic_aajtak));
+                }
+                if(i==2 && j==3){
+                    singleItem.add(new SingleItemModel("NDTV" , "MainActivity2",R.drawable.ic_ndtv));
+                }
+                if(i==2 && j==4){
+                    singleItem.add(new SingleItemModel("India TV" , "MainActivity2",R.drawable.ic_indiatv));
+                }
+                if(i==2 && j==5){
+                    singleItem.add(new SingleItemModel("India Today" , "MainActivity2",R.drawable.ic_indiatoday));
+                }
 
 
 
