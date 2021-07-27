@@ -13,7 +13,7 @@ import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.Abs
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.YouTubePlayerListener;
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView;
 
-public class MainActivity2 extends AppCompatActivity {
+public class TamilNewsActivity extends AppCompatActivity {
     TextView myTitle;
     YouTubePlayerView youTubePlayerView;
     String tvTitletest;
@@ -41,35 +41,43 @@ public class MainActivity2 extends AppCompatActivity {
             public void onReady(@NonNull YouTubePlayer youTubePlayer) {
 
 
-                if (tvTitletest.equals("Janam")) {
+                if (tvTitletest.equals("Sun News")) {
 
 
-                    String videoId = "_WK30gnY3_4";
-
-
-                    youTubePlayer.loadVideo(videoId, 0);
-                }
-
-                if (tvTitletest.equals("Mathruboomi")) {
-
-
-                    String videoId = "z3EoIQAKJ5c";
+                    String videoId = "xnk9g38W_5w";
 
 
                     youTubePlayer.loadVideo(videoId, 0);
                 }
-                if (tvTitletest.equals("Asianet News")) {
+
+                if (tvTitletest.equals("Puthiyathalaimurai")) {
 
 
-                    String videoId = "JstrU2QnMY0";
+                    String videoId = "JddGlT64N2s";
 
 
                     youTubePlayer.loadVideo(videoId, 0);
                 }
-                if (tvTitletest.equals("Kairali News")) {
+                if (tvTitletest.equals("Polimer News")) {
 
 
-                    String videoId = "ET5Y3H3Jusc";
+                    String videoId = "yKMT5aJl7yI";
+
+
+                    youTubePlayer.loadVideo(videoId, 0);
+                }
+                if (tvTitletest.equals("News18 Tamil")) {
+
+
+                    String videoId = "EZy0RAxG8OI";
+
+
+                    youTubePlayer.loadVideo(videoId, 0);
+                }
+                if (tvTitletest.equals("Jaya Plus")) {
+
+
+                    String videoId = "IfsBdgz4TZk";
 
 
                     youTubePlayer.loadVideo(videoId, 0);

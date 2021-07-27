@@ -21,7 +21,9 @@
             android:layout_centerVertical="true"
             android:layout_gravity="center_vertical"
             android:layout_toLeftOf="@+id/btnMore"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
             android:text="Sample title"
+            android:textStyle="bold"
             android:textColor="@android:color/black"
             android:textSize="18sp" />
 

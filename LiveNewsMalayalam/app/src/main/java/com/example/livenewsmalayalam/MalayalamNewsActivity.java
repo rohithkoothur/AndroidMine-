@@ -13,7 +13,7 @@ import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.Abs
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.YouTubePlayerListener;
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView;
 
-public class MainActivity2 extends AppCompatActivity {
+public class MalayalamNewsActivity extends AppCompatActivity {
     TextView myTitle;
     YouTubePlayerView youTubePlayerView;
     String tvTitletest;

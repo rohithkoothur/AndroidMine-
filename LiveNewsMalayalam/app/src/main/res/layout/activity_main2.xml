@@ -10,9 +10,19 @@
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
 
-       app:videoId="z3EoIQAKJ5c"
-       app:autoPlay="true"
+
+       app:autoPlay="false"
        app:showFullScreenButton="true" />
+
+   <TextView
+       android:id="@+id/myTitle"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:text="Testing"
+      android:textSize="24dp"
+
+       />
+
 
 
 

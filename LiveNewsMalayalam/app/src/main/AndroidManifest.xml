@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LiveNewsMalayalam">
-        <activity android:name=".IndiaTodayActivity"></activity>
+        <activity android:name=".TamilNewsActivity"></activity>
+        <activity android:name=".NationalNewsEnglishActivity" />
+        <activity android:name=".HindiNewsActivity" />
+        <activity android:name=".MalayalamNewsActivity" />
+        <activity android:name=".IndiaTodayActivity" />
         <activity android:name=".IndiaTVActivity" />
         <activity android:name=".NDTVActivity" />
         <activity android:name=".AajActivity" />

@@ -13,7 +13,7 @@ import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.Abs
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.YouTubePlayerListener;
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView;
 
-public class MainActivity2 extends AppCompatActivity {
+public class HindiNewsActivity extends AppCompatActivity {
     TextView myTitle;
     YouTubePlayerView youTubePlayerView;
     String tvTitletest;
@@ -41,39 +41,48 @@ public class MainActivity2 extends AppCompatActivity {
             public void onReady(@NonNull YouTubePlayer youTubePlayer) {
 
 
-                if (tvTitletest.equals("Janam")) {
+                if (tvTitletest.equals("Republic")) {
 
 
-                    String videoId = "_WK30gnY3_4";
+                    String videoId = "QwBcy3Kb6QQ";
+
+
+                    youTubePlayer.loadVideo(videoId, 0);
+                }
+
+                if (tvTitletest.equals("Aaj Tak")) {
+
+
+                    String videoId = "cnX9fQEq59A";
+
+
+                    youTubePlayer.loadVideo(videoId, 0);
+                }
+                if (tvTitletest.equals("NDTV")) {
+
+
+                    String videoId = "MN8p-Vrn6G0";
+
+
+                    youTubePlayer.loadVideo(videoId, 0);
+                }
+                if (tvTitletest.equals("India TV")) {
+
+
+                    String videoId = "k9MyH_YJp-0";
+
+
+                    youTubePlayer.loadVideo(videoId, 0);
+                }
+                if (tvTitletest.equals("India Today")) {
+
+
+                    String videoId = "heFq-5rmUTY";
 
 
                     youTubePlayer.loadVideo(videoId, 0);
                 }
 
-                if (tvTitletest.equals("Mathruboomi")) {
-
-
-                    String videoId = "z3EoIQAKJ5c";
-
-
-                    youTubePlayer.loadVideo(videoId, 0);
-                }
-                if (tvTitletest.equals("Asianet News")) {
-
-
-                    String videoId = "JstrU2QnMY0";
-
-
-                    youTubePlayer.loadVideo(videoId, 0);
-                }
-                if (tvTitletest.equals("Kairali News")) {
-
-
-                    String videoId = "ET5Y3H3Jusc";
-
-
-                    youTubePlayer.loadVideo(videoId, 0);
-                }
 
 
             }

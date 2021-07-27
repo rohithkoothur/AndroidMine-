@@ -13,7 +13,7 @@ import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.Abs
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.YouTubePlayerListener;
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView;
 
-public class MainActivity2 extends AppCompatActivity {
+public class NationalNewsEnglishActivity extends AppCompatActivity {
     TextView myTitle;
     YouTubePlayerView youTubePlayerView;
     String tvTitletest;
@@ -41,35 +41,35 @@ public class MainActivity2 extends AppCompatActivity {
             public void onReady(@NonNull YouTubePlayer youTubePlayer) {
 
 
-                if (tvTitletest.equals("Janam")) {
+                if (tvTitletest.equals("Republic ENG")) {
 
 
-                    String videoId = "_WK30gnY3_4";
-
-
-                    youTubePlayer.loadVideo(videoId, 0);
-                }
-
-                if (tvTitletest.equals("Mathruboomi")) {
-
-
-                    String videoId = "z3EoIQAKJ5c";
+                    String videoId = "4QDUnBTrphQ";
 
 
                     youTubePlayer.loadVideo(videoId, 0);
                 }
-                if (tvTitletest.equals("Asianet News")) {
+
+                if (tvTitletest.equals("CNN18")) {
 
 
-                    String videoId = "JstrU2QnMY0";
+                    String videoId = "gD7k4o8JBJI";
 
 
                     youTubePlayer.loadVideo(videoId, 0);
                 }
-                if (tvTitletest.equals("Kairali News")) {
+                if (tvTitletest.equals("NDTV 24x7")) {
 
 
-                    String videoId = "ET5Y3H3Jusc";
+                    String videoId = "WB-y7_ymPJ4";
+
+
+                    youTubePlayer.loadVideo(videoId, 0);
+                }
+                if (tvTitletest.equals("News X")) {
+
+
+                    String videoId = "NGZ1I1dpapc";
 
 
                     youTubePlayer.loadVideo(videoId, 0);
